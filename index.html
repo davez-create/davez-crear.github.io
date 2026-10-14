@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASTER EN CSS</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    </head>
+    <body>
+        <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Curso CSS.</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#Aprender" class="nav__links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#Contacto" class="nav__links">Contacto</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#Blog" class="nav__links">Blog</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">Aprende CSS3 desde CERO hasta dominarlo.</h1>
+            <p class="hero__paragraph">Elige aprender CSS de una vez por todas, una vez que termines este curso serás
+                capaz de crear cualquier layout con CSS y crear tus propias animaciones.</p>
+            <a href="#" class="cta">Comienza ahora</a>
+        </section>
+    </header>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle" id="Aprender">¿Qué aprenderás en este curso?</h2>
+            <p class="about__paragraph">Todo lo necesario y obligatorio de CSS, (Flexbox, Grid, Custom properties,
+                Position, Animaciones, Box Model y más)</p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./images/shapes.svg" class="about__icon">
+                    <h3 class="about__title">CSS Layouts</h3>
+                    <p class="about__paragrah">CSS Layouts son técnicas que permiten organizar y distribuir los elementos de una página web, como imágenes, textos, botones, menús y tarjetas. Su objetivo es lograr que la página tenga una estructura ordenada, atractiva y fácil de utilizar.
+                    Existen diferentes métodos para organizar los elementos. Flexbox permite acomodarlos en filas o columnas, mientras que CSS Grid permite distribuirlos en filas y columnas al mismo tiempo.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/paint.svg" class="about__icon">
+                    <h3 class="about__title">Animaciones</h3>
+                    <p class="about__paragrah">Las animaciones en CSS permiten agregar movimiento y efectos visuales a los elementos de una página web. Gracias a ellas, los botones pueden cambiar de tamaño o color, las imágenes pueden aparecer gradualmente y los elementos pueden moverse o girar.
+                    Las animaciones ayudan a mejorar la apariencia de una página y hacen que la experiencia del usuario sea más dinámica e interactiva. </p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/code.svg" class="about__icon">
+                    <h3 class="about__title">Sass</h3>
+                    <p class="about__paragrah">Sass es una herramienta que facilita la escritura y organización de los estilos de una página web. Se basa en CSS y permite trabajar con características adicionales que hacen que el código sea más fácil de mantener, especialmente en proyectos grandes.
+                    Entre sus principales características están las variables, que permiten guardar colores y tamaños para reutilizarlos; el anidamiento, que ayuda a organizar los estilos relacionados</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">Curso completo de CSS3. ¡Domina CSS de una vez por todas!</h2>
+                    <p class="knowledge__paragraph">CSS3 es una versión de las hojas de estilo en cascada que permite diseñar y mejorar la apariencia de las páginas web. Se utiliza para cambiar colores, tamaños de letras, fondos, márgenes y la distribución de los elementos.
+                    Aprender CSS3 ayuda a crear páginas web más atractivas, modernas y fáciles de utilizar. También permite agregar efectos visuales, animaciones y diseños que se adaptan a diferentes dispositivos, como celulares y computadoras.</a>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./images/Mack.jpg" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+        <section class="price container">
+            <h2 class="subtitle">Obten el plan perfecto para aprender</h2>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name">Flexbox</p>
+                    <h3 class="price__price">Free</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Flexbox</p>
+                        <p class="price__features">Layouts</p>
+                        <p class="price__features">Responsive</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Empieza ahora</a>
+                </div>
+
+
+                <div class="price__element price__element--best">
+                    <p class="price__name">Grid</p>
+                    <h3 class="price__price">$30/mes</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Grid</p>
+                        <p class="price__features">Implicit Grid</p>
+                        <p class="price__features">Responsive</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Empieza ahora</a>
+                </div>
+
+
+                <div class="price__element">
+                    <p class="price__name">Animaciones</p>
+                    <h3 class="price__price">$40/mes</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Animation</p>
+                        <p class="price__features">Transition</p>
+                        <p class="price__features">Render Website</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Empieza ahora</a>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="testimony" id="Blog">
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es David Lopez Leal, <span class="testimony__course">estudiante
+                                de CSS.</span></h2>
+                        <p class="testimony__review">Estoy aprendiendo CSS, un lenguaje utilizado para diseñar páginas web. Mediante su aprendizaje, puede conocer cómo modificar colores, tamaños, 
+                        fuentes y posiciones de los elementos para crear sitios web atractivos y organizados.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="images/face.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Alejandra Morales, <span class="testimony__course">estudiante de
+                                CSS.</span></h2>
+                        <p class="testimony__review">Estoy aprendiendo de CSS que quiere mejorar la aparencia de las paginas web.Con estos conocimientos puede diseñar interfaces, organizar informacion y personalizar elementos
+                            como textos, imagenes y fondos.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="images/face2.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Karen miguel , <span class="testimony__course">estudiante de
+                                CSS.</span></h2>
+                        <p class="testimony__review">Estudiante de CSS que está desarrollando conocimientos sobre diseño web. El aprendizaje de CSS le permite comprender cómo dar formato a una página, distribuir sus elementos 
+                            y crear diseños visualmente agradables.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face3.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Kevin Ramirez, <span class="testimony__course">estudiante de
+                                CSS.</span></h2>
+                        <p class="testimony__review">Un estudiante de CSS que está aprendiendo herramientas para diseñar páginas web. Estos conocimientos le ayudan a personalizar los estilos de un sitio, mejorar la presentación
+                            del contenido y crear interfaces más ordenadas.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="images/face4.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+            <p class="questions__paragraph">Estas serian las preguntas mas frecuentes en CSS</p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Qué es CSS?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">CSS es un lenguaje que permite dar diseño y estilo a las páginas web, modificando colores, tamaños, fuentes y posiciones de los elementos.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Qué aprenderé en este curso?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Aprenderás a diseñar páginas web, organizar sus elementos, crear animaciones y utilizar herramientas para mejorar su apariencia.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Qué es CSS GRID?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">CSS Grid es un sistema de diseño que permite organizar los elementos de una página web en filas y columnas, facilitando la creación de diseños ordenados.</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="questions__offer">
+                <h2 class="subtitle">¿Estas listo para aprender CSS?</h2>
+                <p class="questions__copy"></a>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Curso CSS.</h2>
+
+                <ul class="nav__link nav__link--footer" >
+                    <li class="nav__items" >
+                        <a href="#" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#Aprender" class="nav__links">Acerca de</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#Contacto" class="nav__links">Contacto</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#Blog" class="nav__links">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/mdeapooj" method="post">
+                <input type="hidden" name="apiKey" value="sf_0734af3c13cfdb1e4699f327">
+
+                <input type="hidden" name="subject" value="Suscripción a la newsletter">
+                <h2 class="footer__newsletter">Suscribete a la newsletter</h2>
+                <div class="footer__inputs">
+                    <input
+                    type="email"
+                    placeholder="Email:"
+                    class="footer__input"
+                    name="email"
+                    required
+                    >
+                    <input 
+                    type="submit"
+                    value="Registrarse"
+                    class="footer__submit"
+                    >
+
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container" id="Contacto">
+            <div class="footer__social">
+                <a href="https://www.facebook.com" class="footer__icons" target="_blank"><img src="./images/facebook.svg" class="footer__img"></a>
+                <a href="https://www.twitter.com" class="footer__icons" target="_blank"><img src="./images/twitter.svg" class="footer__img"></a>
+                <a href="https://www.youtube.com" class="footer__icons" target="_blank"><img src="./images/youtube.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; Lopez Leal David</h3>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+    
+</body>
+</html>
